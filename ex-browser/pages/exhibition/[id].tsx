@@ -3,7 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import { GetStaticProps, GetStaticPaths, NextPage } from 'next'
 import { ParsedUrlQuery } from 'querystring'
-import { ExData, ExDataProps, Exhibition } from '../../types/exdata'
+import { ExData, ExDataProps } from '../../types/exdata'
 import { GetExs, GetEx } from '../../lib/exdata_api'
 
 interface Params extends ParsedUrlQuery {
@@ -13,9 +13,8 @@ interface Params extends ParsedUrlQuery {
 export const getStaticPaths: GetStaticPaths<Params> = async () => {
   const exList: ExData[] = await GetExs()
 
-  
   return {
-    paths: exList.events.map((ex) => {
+    paths: exList.map((ex) => {
       return {
         params: {
           id: ex.id.toString(),

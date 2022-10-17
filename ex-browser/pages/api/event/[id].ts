@@ -11,11 +11,11 @@ export default function eventHandler(req: NextApiRequest, res: NextApiResponse) 
   switch (method) {
     case 'GET':
         let dir = process.env.ACTIVITY_DATA_PATH;
-        let filepath = '../' + dir + '/' + id ;
+        let filepath = '../' + dir + '/' + id + '.json';
         
         let rawdata = fs.readFileSync(filepath);
         let event = JSON.parse(rawdata);
-        res.status(200).json(event)
+        res.status(200).json(event) 
       break
     
     default:

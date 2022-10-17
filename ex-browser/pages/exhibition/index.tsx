@@ -40,10 +40,8 @@ const IndexPage: NextPage<ExDataListProps> = ({
        
       
     </tr>
-    
         {
-         
-        exDataList.events.map((ex: ExData) => (
+        exDataList.map((ex: ExData) => (
           <Ex {...ex} key={ex.id} />
         ))}
       </table>
