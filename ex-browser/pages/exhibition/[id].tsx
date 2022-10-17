@@ -39,7 +39,7 @@ export const getStaticProps: GetStaticProps<ExDataProps, Params> = async (
 
 const Ex: NextPage<ExDataProps> = ({ exData }: ExDataProps) => {
 
-  console.log(exData)
+  
   return (
     <main>
       <Head>
@@ -49,25 +49,31 @@ const Ex: NextPage<ExDataProps> = ({ exData }: ExDataProps) => {
         <a>Go back to home</a>
       </Link>
       <h1>Exhibition: {exData._label}</h1>
+      <h2>Identifiers</h2>
 
-     <h2>Identifiers</h2>
-
-     {
-
-      exData.identified_by[0].content
-     }
-
+<p>
+{
+ exData.identified_by[0].content
+}
+</p>
 <h2>Dates</h2>
-      <ul>
-          <li>Start: {exData.timespan.begin_of_the_begin.split('T', 1)[0]}</li>
-          <li>End: {exData.timespan.end_of_the_end.split('T', 1)[0]}</li>
-         
-        </ul>
+ <ul>
+
+ {"timespan" in exData && "begin_of_the_begin" in exData.timespan ? <li>Start Date: {new Date(exData.timespan.begin_of_the_begin).toISOString().split('T', 1)[0]}</li> : ""}
+{"timespan" in exData && "end_of_the_end" in exData.timespan ? <li>End Date: {new Date(exData.timespan.end_of_the_end).toISOString().split('T', 1)[0]}</li> : ""}
+
+
+   
+    
+   </ul>
 
 <h2>Organisation</h2>
-
-         {exData.carried_out_by[0]._label}
-
+<p>
+ {
+    "carried_out_by" in exData ? exData.carried_out_by[0]._label : ""
+    }
+</p>
+    
 
       
     </main>
