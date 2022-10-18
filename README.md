@@ -35,6 +35,8 @@ Follow instructions and call app ex-browser
 - ref: https://fontawesome.com/v5/docs/web/use-with/react
 
 
+Install Boostrap
+
 `npm install react-bootstrap`
 
 
