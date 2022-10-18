@@ -6,7 +6,11 @@ import { exit } from 'process';
 var fs = require('fs');
 
 
-
+export const config = {
+  api: {
+    responseLimit: false,
+  },
+}
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     

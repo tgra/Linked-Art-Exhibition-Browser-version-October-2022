@@ -77,21 +77,21 @@ const IndexPage: NextPage<ExDataListProps> = ({
    
      
      
-<div class="container">
-<div class="row">
-<div class="col col-lg-3 facet-menu">
+<div className="container">
+<div className="row">
+<div className="col col-lg-3 facet-menu">
 <h2>{process.env.NEXT_PUBLIC_ACTIVITY_TITLE}</h2>
       <p>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</p>
       
       <p>Number of records: </p>
 
-    <span class="fs-5 fw-semibold">Facets</span>
+    <span className="fs-5 fw-semibold">Facets</span>
  
   
 
 
 </div>
-<div class="col">
+<div className="col">
 Page
 {pagination}
       <Table  striped borderless hover size="sm">
@@ -139,8 +139,8 @@ export default IndexPage
 
 function Paging(page:number  , pp:number, sort:string, orderby:string) {
  
-  page = parseInt(page);
-  pp = parseInt(pp);
+  
+  
   let first_url = "?page=1&pp="+ pp + "&sort=" + sort + "&orderby=" + orderby;
 
   let prev_url = "?page=" + (page - 1) + "&pp="+ pp+ "&sort=" + sort + "&orderby=" + orderby;
@@ -149,7 +149,9 @@ function Paging(page:number  , pp:number, sort:string, orderby:string) {
   let items = [<Pagination.First href={first_url}/>,<Pagination.Prev href={prev_url}/>];
 
   const s = page;
-  const e = parseInt(s) + 4;
+  const e = s + 4;
+
+
   for (let number = s; number <= e; number++) {
 
     let url = "?page=" + (number) + "&pp="+ pp + "&sort=" + sort + "&orderby=" + orderby;

@@ -3,4 +3,15 @@ module.exports = {
     typescript: {
       ignoreBuildErrors: true,
     },
+    experimental: {
+    largePageDataBytes:  128 * 1000000,
+    },
+    exportPathMap: function() {
+      return {
+        "/": {
+          page: "/index",
+          query: {}
+        }
+      };
+    }
   }

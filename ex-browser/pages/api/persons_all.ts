@@ -22,8 +22,15 @@ function get_nationality(person){
   return return_value;
 }
 
+export const config = {
+  api: {
+    responseLimit: false,
+  },
+}
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
+
+  
     
     let dir = "../data/person";
     let persons = new Array

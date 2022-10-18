@@ -21,7 +21,7 @@ import { GetPersons } from '../../lib/persondata_api'
 
 
 export const getStaticProps: GetStaticProps = async (_context) => {
-  // fetch list of exhibitions
+  
   const persons: PersonData[] = await GetPersons()
   return {
     props: {
@@ -66,30 +66,25 @@ const IndexPage: NextPage<PersonDataListProps> = ({
 
 
 
-<div class="container">
-<div class="row">
-<div class="col col-lg-3 facet-menu">
+<div className="container">
+<div className="row">
+<div className="col col-lg-3 facet-menu">
       <h1 className="title">{process.env.NEXT_PUBLIC_PERSON_TITLE}</h1>
-
       <p className="description">{process.env.NEXT_PUBLIC_PERSON_DESCRIPTION}</p>
       
 </div>
 
-<div class="col">
+<div className="col">
 {pagination}
       <Table striped borderless hover >
         <thead>
-
-       
-
           <tr>
             <th>Name</th>
             <th>Born</th>
             <th>Died</th>
             <th>Nationality</th>
            <th></th>
-          </tr>
-          
+          </tr>      
         </thead>
         <tbody>
           {
