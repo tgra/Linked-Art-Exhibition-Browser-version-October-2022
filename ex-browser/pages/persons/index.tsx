@@ -1,3 +1,6 @@
+
+
+
 import Head from 'next/head'
 import { GetStaticProps, NextPage } from 'next'
 import Person from '../../components/person'
@@ -7,7 +10,7 @@ import { GetPersons } from '../../lib/persondata_api'
 
 
 export const getStaticProps: GetStaticProps = async (_context) => {
-  // fetch list of persons
+  // fetch list of exhibitions
   const persons: PersonData[] = await GetPersons()
   return {
     props: {
@@ -27,11 +30,21 @@ const IndexPage: NextPage<PersonDataListProps> = ({
 
       <h1>Person index</h1>
 
-      <section>
-        {personDataList.map((person: PersonData) => (
+      <table>
+      <tr>
+      <th>name</th>
+      
+     
+      <th></th>
+      
+       
+      
+    </tr>
+        {
+        personDataList.map((person: PersonData) => (
           <Person {...person} key={person.id} />
         ))}
-      </section>
+      </table>
     </main>
   )
 }

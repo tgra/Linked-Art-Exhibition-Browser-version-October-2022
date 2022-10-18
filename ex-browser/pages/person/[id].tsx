@@ -40,12 +40,12 @@ const Person: NextPage<PersonDataProps> = ({ personData }: PersonDataProps) => {
   return (
     <main>
       <Head>
-        <title>{personData.title}</title>
+        <title>{personData._label}</title>
       </Head>
 
-      <h1>{personData.title}</h1>
+      <h1>{personData._label}</h1>
 
-      <p>{personData.body}</p>
+      <p>{personData.id}</p>
 
       <Link href="/">
         <a>Go back to home</a>

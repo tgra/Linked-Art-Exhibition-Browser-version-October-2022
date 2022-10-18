@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { GetStaticProps, NextPage } from 'next'
 import Ex from '../../components/ex'
 
-import { ExData, ExDataProps , ExDataListProps} from '../../types/exdata'
-import { GetExs, GetEx } from '../../lib/exdata_api'
+import { ExData, ExDataListProps} from '../../types/exdata'
+import { GetExs } from '../../lib/exdata_api'
 
 
 export const getStaticProps: GetStaticProps = async (_context) => {

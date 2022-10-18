@@ -6,12 +6,10 @@ export interface ExData {
   location: string
   org: string
   _label:string
-  identified_by: any
+  identified_by: any[]
   timespan:any
-  carried_out_by: any
+  carried_out_by: any[]
 }
-
-
 
 
 

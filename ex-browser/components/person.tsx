@@ -1,14 +1,20 @@
 import Link from 'next/link'
 import { PersonData } from '../types/persondata'
 
-export default function Person({ title, body, id }: PersonData) {
+export default function Person({  id, _label }: PersonData) {
   return (
-    <article>
-      <h2>{title}</h2>
-      <p>{body}</p>
-      <Link href={`/person/${id}`}>
-        <a>Read more...</a>
-      </Link>
-    </article>
+    
+
+<tr>
+<td>{_label}</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td><Link href={`/person/${id}`}><a>view</a></Link></td>
+
+ 
+
+</tr>
   )
 }

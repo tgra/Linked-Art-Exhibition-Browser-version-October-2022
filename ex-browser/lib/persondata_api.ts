@@ -2,7 +2,7 @@ import { PersonData } from '../types/persondata'
 
 export async function GetPerson(id: string): Promise<PersonData> {
   const response = await fetch(
-    `https://jsonplaceholder.typicode.com/posts/${id}`
+    `http://localhost:3000/data/person/${id}` + `.json`
   )
   const personData: PersonData = (await response.json()) as PersonData
   return personData
@@ -10,8 +10,10 @@ export async function GetPerson(id: string): Promise<PersonData> {
 
 export async function GetPersons(): Promise<PersonData[]> {
   const response = await fetch(
-    'https://jsonplaceholder.typicode.com/posts?_page=1'
-  )
-  const personList: PersonData[] = (await response.json()) as PersonData[]
+    'http://localhost:3000/api/persons_all'
+    )
+    const result =  await response.json()
+  
+  const personList: PersonData[] = ( result.persons) as PersonData[]
   return personList
 }

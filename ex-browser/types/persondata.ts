@@ -1,8 +1,7 @@
 export interface PersonData {
-  userId: number
+  
   id: number
-  title: string
-  body: string
+  _label: string
 }
 
 export interface PersonDataProps {
