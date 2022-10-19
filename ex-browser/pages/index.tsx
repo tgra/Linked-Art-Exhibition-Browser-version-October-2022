@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import { GetStaticProps, NextPage } from 'next'
 
 
@@ -11,9 +10,6 @@ import Card from 'react-bootstrap/Card';
 
 export const getStaticProps: GetStaticProps = async (_context) => {
   
-  
-
-
   return {
     props: {
       data: [],

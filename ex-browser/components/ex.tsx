@@ -9,7 +9,7 @@ export default function Ex({ label, id, start,end,  org }: ExData) {
       <td>{start != undefined ? start.split('T', 1)[0] : "" }</td>
       <td>{end != undefined ? end.split('T', 1)[0] : "" }</td>
      
-      <td><Link href={`/exhibition/${id}`}><a>view</a></Link></td>
+      <td><Link href={`../exhibition/${id}`}><a>view</a></Link></td>
       
        
       

@@ -66,17 +66,13 @@ const IndexPage: NextPage<ExDataListProps> = ({
     
     </Head>
 
-
 <main>
 
 <Breadcrumb>
-    <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
-    <Breadcrumb.Item active href="/exhibition">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_PLURAL}</Breadcrumb.Item>
-  
+    <Breadcrumb.Item href="../">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
+    <Breadcrumb.Item active href="#">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_PLURAL}</Breadcrumb.Item>
 </Breadcrumb> 
-   
-     
-     
+      
 <div className="container">
 <div className="row">
 <div className="col col-lg-3 facet-menu">

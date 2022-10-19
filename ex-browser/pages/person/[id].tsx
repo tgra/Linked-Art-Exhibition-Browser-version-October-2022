@@ -81,8 +81,8 @@ const Person: NextPage<PersonDataProps> = ({ personData }: PersonDataProps) => {
 
 
       <Breadcrumb>
-        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-        <Breadcrumb.Item href="/persons">People</Breadcrumb.Item>
+        <Breadcrumb.Item href="../">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="../persons">People</Breadcrumb.Item>
         <Breadcrumb.Item active href="#">Person</Breadcrumb.Item>
       </Breadcrumb>
 

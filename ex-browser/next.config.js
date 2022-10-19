@@ -10,7 +10,7 @@ module.exports = {
       return {
         "/": {
           page: "/index",
-          query: {}
+          query: {__nextDefaultLocale:""}
         }
       };
     }

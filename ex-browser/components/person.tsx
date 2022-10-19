@@ -10,7 +10,7 @@ export default function Person({  id, _label, name, born, died, nationality }: P
                 <td>{born}</td>
                 <td>{died}</td>
                 <td>{nationality}</td>
-                <td><Link href="/person/[id]" as={`/person/${id}`}>View</Link></td>
+                <td><Link href="../person/[id]" as={`/person/${id}`}>View</Link></td>
               </tr>
 
 
