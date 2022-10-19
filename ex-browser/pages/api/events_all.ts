@@ -34,10 +34,14 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           // total number of files in dir
           meta.totalCount = files.length;
          
-
+          let counter = 1
 
           files.forEach(function (file:any) {
-
+              
+              counter = counter + 1
+              if (counter > 10) {
+                return;
+              }
               let filepath = dir + '/' + file;
               let rawdata = fs.readFileSync(filepath);
               let event = JSON.parse(rawdata);

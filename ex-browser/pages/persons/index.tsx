@@ -96,10 +96,7 @@ const IndexPage: NextPage<PersonDataListProps> = ({
       </Table>
 
 
-      <table> {
-        personDataList.map((person: PersonData) => (
-          <Person {...person} key={person.id} />
-        ))}</table>
+      
       </div>
 </div></div>
     </main>

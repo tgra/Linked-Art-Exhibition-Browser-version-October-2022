@@ -1,0 +1,3665 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://www.moma.org/data/Activity/10",
+    "type": "Activity",
+    "_label": "Painting and Sculpture by Living Americans",
+    "classified_as": [
+        {
+            "id": "http://vocab.getty.edu/aat/300054766",
+            "type": "Type",
+            "_label": "Exhibiting"
+        }
+    ],
+    "identified_by": [
+        {
+            "type": "Name",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300404670",
+                    "type": "Type",
+                    "_label": "Primary Name"
+                }
+            ],
+            "content": "Painting and Sculpture by Living Americans"
+        }
+    ],
+    "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1930-12-03T00:00:00Z",
+        "end_of_the_end": "1931-01-20T23:59:59Z"
+    },
+    "took_place_at": [
+        {
+            "type": "Place",
+            "_label": "Crown Building",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300260522",
+                    "type": "Type",
+                    "_label": "exhibition building spaces"
+                }
+            ],
+            "defined_by": "POINT(40.76314 -73.97446)"
+        },
+        {
+            "type": "Place",
+            "_label": "730 5th Avenue",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300419273",
+                    "type": "Type",
+                    "_label": "thoroughfare names"
+                }
+            ]
+        }
+    ],
+    "carried_out_by": [
+        {
+            "id": "https://www.moma.org/data/Group/inst3",
+            "type": "Group",
+            "_label": "The Museum of Modern Art",
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "The Museum of Modern Art"
+                }
+            ],
+            "equivalent": [
+                {
+                    "id": "http://vocab.getty.edu/ulan/500303609",
+                    "type": "Group",
+                    "_label": "The Museum of Modern Art - ULAN"
+                },
+                {
+                    "id": "http://www.wikidata.org/entity/Q188740",
+                    "type": "Group",
+                    "_label": "The Museum of Modern Art - Wikidata"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/24509",
+            "type": "Person",
+            "_label": "Jere Abbott",
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Jere Abbott"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "40656",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art",
+                                    "identified_by": [
+                                        {
+                                            "type": "Name",
+                                            "content": "The Metropolitan Museum of Art"
+                                        }
+                                    ],
+                                    "equivalent": [
+                                        {
+                                            "id": "http://vocab.getty.edu/ulan/500309699",
+                                            "type": "Group",
+                                            "_label": "The Metropolitan Museum of Art - ULAN"
+                                        },
+                                        {
+                                            "id": "http://www.wikidata.org/entity/Q160236",
+                                            "type": "Group",
+                                            "_label": "The Metropolitan Museum of Art - Wikidata"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/8462",
+            "type": "Person",
+            "_label": "Alfred H. Barr, Jr.",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300379842",
+                            "type": "Type",
+                            "_label": "Nationality"
+                        }
+                    ]
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Alfred H. Barr, Jr."
+                },
+                {
+                    "type": "Identifier",
+                    "content": "9168",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300418049",
+                                    "type": "Type",
+                                    "_label": "Brief Text"
+                                }
+                            ]
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1902"
+                        }
+                    ],
+                    "begin_of_the_begin": "1902-01-01T00:00:00Z",
+                    "end_of_the_end": "1902-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1981"
+                        }
+                    ],
+                    "begin_of_the_begin": "1981-01-01T00:00:00Z",
+                    "end_of_the_end": "1981-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500241556",
+                    "type": "Person",
+                    "_label": "Alfred H. Barr, Jr. - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q711362",
+                    "type": "Person",
+                    "_label": "Alfred H. Barr, Jr. - VIAF"
+                }
+            ]
+        }
+    ],
+    "subject_of": [
+        {
+            "type": "LinguisticObject",
+            "digitally_carried_by": [
+                {
+                    "type": "DigitalObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300264578",
+                            "type": "Type",
+                            "_label": "Web Page"
+                        }
+                    ],
+                    "access_point": [
+                        {
+                            "id": "http://www.moma.org/calendar/exhibitions/1916",
+                            "type": "DigitalObject"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "influenced_by": [
+        {
+            "id": "https://www.moma.org/data/Person/5174",
+            "type": "Person",
+            "_label": "Charles Sheeler",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Charles Sheeler"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "5383",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1883"
+                        }
+                    ],
+                    "begin_of_the_begin": "1883-01-01T00:00:00Z",
+                    "end_of_the_end": "1883-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1965"
+                        }
+                    ],
+                    "begin_of_the_begin": "1965-01-01T00:00:00Z",
+                    "end_of_the_end": "1965-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500115325",
+                    "type": "Person",
+                    "_label": "Charles Sheeler - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q624868",
+                    "type": "Person",
+                    "_label": "Charles Sheeler - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/2863",
+            "type": "Person",
+            "_label": "Morris Kantor",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Morris Kantor"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2988",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1896"
+                        }
+                    ],
+                    "begin_of_the_begin": "1896-01-01T00:00:00Z",
+                    "end_of_the_end": "1896-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1974"
+                        }
+                    ],
+                    "begin_of_the_begin": "1974-01-01T00:00:00Z",
+                    "end_of_the_end": "1974-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500007201",
+                    "type": "Person",
+                    "_label": "Morris Kantor - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q3344179",
+                    "type": "Person",
+                    "_label": "Morris Kantor - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/3191",
+            "type": "Person",
+            "_label": "Gaston Lachaise",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Gaston Lachaise"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "3332",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1882"
+                        }
+                    ],
+                    "begin_of_the_begin": "1882-01-01T00:00:00Z",
+                    "end_of_the_end": "1882-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1935"
+                        }
+                    ],
+                    "begin_of_the_begin": "1935-01-01T00:00:00Z",
+                    "end_of_the_end": "1935-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500001766",
+                    "type": "Person",
+                    "_label": "Gaston Lachaise - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q1495586",
+                    "type": "Person",
+                    "_label": "Gaston Lachaise - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/3267",
+            "type": "Person",
+            "_label": "Robert Laurent",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Robert Laurent"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "3411",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1890"
+                        }
+                    ],
+                    "begin_of_the_begin": "1890-01-01T00:00:00Z",
+                    "end_of_the_end": "1890-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1970"
+                        }
+                    ],
+                    "begin_of_the_begin": "1970-01-01T00:00:00Z",
+                    "end_of_the_end": "1970-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500049308",
+                    "type": "Person",
+                    "_label": "Robert Laurent - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q7346738",
+                    "type": "Person",
+                    "_label": "Robert Laurent - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/5344",
+            "type": "Person",
+            "_label": "Niles Spencer",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Niles Spencer"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "5561",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1893"
+                        }
+                    ],
+                    "begin_of_the_begin": "1893-01-01T00:00:00Z",
+                    "end_of_the_end": "1893-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1952"
+                        }
+                    ],
+                    "begin_of_the_begin": "1952-01-01T00:00:00Z",
+                    "end_of_the_end": "1952-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500030928",
+                    "type": "Person",
+                    "_label": "Niles Spencer - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q20825697",
+                    "type": "Person",
+                    "_label": "Niles Spencer - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/3126",
+            "type": "Person",
+            "_label": "Leon Kroll",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Leon Kroll"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "3262",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1884"
+                        }
+                    ],
+                    "begin_of_the_begin": "1884-01-01T00:00:00Z",
+                    "end_of_the_end": "1884-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1974"
+                        }
+                    ],
+                    "begin_of_the_begin": "1974-01-01T00:00:00Z",
+                    "end_of_the_end": "1974-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500018087",
+                    "type": "Person",
+                    "_label": "Leon Kroll - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q12061052",
+                    "type": "Person",
+                    "_label": "Leon Kroll - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/3029",
+            "type": "Person",
+            "_label": "Karl Knaths",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Karl Knaths"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "3159",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1891"
+                        }
+                    ],
+                    "begin_of_the_begin": "1891-01-01T00:00:00Z",
+                    "end_of_the_end": "1891-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1971"
+                        }
+                    ],
+                    "begin_of_the_begin": "1971-01-01T00:00:00Z",
+                    "end_of_the_end": "1971-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500007983",
+                    "type": "Person",
+                    "_label": "Karl Knaths - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q17183235",
+                    "type": "Person",
+                    "_label": "Karl Knaths - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/3261",
+            "type": "Person",
+            "_label": "Sidney Laufman",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Sidney Laufman"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "3405",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1891"
+                        }
+                    ],
+                    "begin_of_the_begin": "1891-01-01T00:00:00Z",
+                    "end_of_the_end": "1891-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1985"
+                        }
+                    ],
+                    "begin_of_the_begin": "1985-01-01T00:00:00Z",
+                    "end_of_the_end": "1985-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500009087",
+                    "type": "Person",
+                    "_label": "Sidney Laufman - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q20859511",
+                    "type": "Person",
+                    "_label": "Sidney Laufman - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/2857",
+            "type": "Person",
+            "_label": "John Kane",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "John Kane"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2982",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1860"
+                        }
+                    ],
+                    "begin_of_the_begin": "1860-01-01T00:00:00Z",
+                    "end_of_the_end": "1860-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1934"
+                        }
+                    ],
+                    "begin_of_the_begin": "1934-01-01T00:00:00Z",
+                    "end_of_the_end": "1934-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500002849",
+                    "type": "Person",
+                    "_label": "John Kane - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q6242451",
+                    "type": "Person",
+                    "_label": "John Kane - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/3083",
+            "type": "Person",
+            "_label": "Benjamin Kopman",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Benjamin Kopman"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "3216",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1887"
+                        }
+                    ],
+                    "begin_of_the_begin": "1887-01-01T00:00:00Z",
+                    "end_of_the_end": "1887-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1965"
+                        }
+                    ],
+                    "begin_of_the_begin": "1965-01-01T00:00:00Z",
+                    "end_of_the_end": "1965-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500024563",
+                    "type": "Person",
+                    "_label": "Benjamin Kopman - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q20859485",
+                    "type": "Person",
+                    "_label": "Benjamin Kopman - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/4280",
+            "type": "Person",
+            "_label": "Guy Pène du Bois",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Guy Pène du Bois"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "4460",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1884"
+                        }
+                    ],
+                    "begin_of_the_begin": "1884-01-01T00:00:00Z",
+                    "end_of_the_end": "1884-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1958"
+                        }
+                    ],
+                    "begin_of_the_begin": "1958-01-01T00:00:00Z",
+                    "end_of_the_end": "1958-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500120494",
+                    "type": "Person",
+                    "_label": "Guy Pène du Bois - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q5622550",
+                    "type": "Person",
+                    "_label": "Guy Pène du Bois - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/4766",
+            "type": "Person",
+            "_label": "Boardman Robinson",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Boardman Robinson"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "4961",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1876"
+                        }
+                    ],
+                    "begin_of_the_begin": "1876-01-01T00:00:00Z",
+                    "end_of_the_end": "1876-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1952"
+                        }
+                    ],
+                    "begin_of_the_begin": "1952-01-01T00:00:00Z",
+                    "end_of_the_end": "1952-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500010640",
+                    "type": "Person",
+                    "_label": "Boardman Robinson - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q4395132",
+                    "type": "Person",
+                    "_label": "Boardman Robinson - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/6288",
+            "type": "Person",
+            "_label": "William Zorach",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "William Zorach"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "6582",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1889"
+                        }
+                    ],
+                    "begin_of_the_begin": "1889-01-01T00:00:00Z",
+                    "end_of_the_end": "1889-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1966"
+                        }
+                    ],
+                    "begin_of_the_begin": "1966-01-01T00:00:00Z",
+                    "end_of_the_end": "1966-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500003603",
+                    "type": "Person",
+                    "_label": "William Zorach - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q385941",
+                    "type": "Person",
+                    "_label": "William Zorach - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/5549",
+            "type": "Person",
+            "_label": "Augustus Vincent Tack",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Augustus Vincent Tack"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "5774",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1870"
+                        }
+                    ],
+                    "begin_of_the_begin": "1870-01-01T00:00:00Z",
+                    "end_of_the_end": "1870-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1949"
+                        }
+                    ],
+                    "begin_of_the_begin": "1949-01-01T00:00:00Z",
+                    "end_of_the_end": "1949-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500026877",
+                    "type": "Person",
+                    "_label": "Augustus Vincent Tack - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q4821560",
+                    "type": "Person",
+                    "_label": "Augustus Vincent Tack - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/27226",
+            "type": "Person",
+            "_label": "George Luks",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "George Luks"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "64789",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1867"
+                        }
+                    ],
+                    "begin_of_the_begin": "1867-01-01T00:00:00Z",
+                    "end_of_the_end": "1867-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1933"
+                        }
+                    ],
+                    "begin_of_the_begin": "1933-01-01T00:00:00Z",
+                    "end_of_the_end": "1933-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500007311",
+                    "type": "Person",
+                    "_label": "George Luks - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q337733",
+                    "type": "Person",
+                    "_label": "George Luks - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/5660",
+            "type": "Person",
+            "_label": "Mark Tobey",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Mark Tobey"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "5889",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1890"
+                        }
+                    ],
+                    "begin_of_the_begin": "1890-01-01T00:00:00Z",
+                    "end_of_the_end": "1890-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1976"
+                        }
+                    ],
+                    "begin_of_the_begin": "1976-01-01T00:00:00Z",
+                    "end_of_the_end": "1976-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500012870",
+                    "type": "Person",
+                    "_label": "Mark Tobey - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q261562",
+                    "type": "Person",
+                    "_label": "Mark Tobey - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/21042",
+            "type": "Person",
+            "_label": "Paul Dougherty",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Paul Dougherty"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "34886",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1953"
+                        }
+                    ],
+                    "begin_of_the_begin": "1953-01-01T00:00:00Z",
+                    "end_of_the_end": "1953-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500028111",
+                    "type": "Person",
+                    "_label": "Paul Dougherty - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q1008673",
+                    "type": "Person",
+                    "_label": "Paul Dougherty - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/27545",
+            "type": "Person",
+            "_label": "Dudley Vail Talcott",
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Dudley Vail Talcott"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "61700",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/27537",
+            "type": "Person",
+            "_label": "Wilhelm Hunt Diederich",
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Wilhelm Hunt Diederich"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "61692",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500019593",
+                    "type": "Person",
+                    "_label": "Wilhelm Hunt Diederich - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q51163642",
+                    "type": "Person",
+                    "_label": "Wilhelm Hunt Diederich - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/27535",
+            "type": "Person",
+            "_label": "Henry Lee McFee",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Henry Lee McFee"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "61690",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1886"
+                        }
+                    ],
+                    "begin_of_the_begin": "1886-01-01T00:00:00Z",
+                    "end_of_the_end": "1886-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1953"
+                        }
+                    ],
+                    "begin_of_the_begin": "1953-01-01T00:00:00Z",
+                    "end_of_the_end": "1953-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500001132",
+                    "type": "Person",
+                    "_label": "Henry Lee McFee - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q15453634",
+                    "type": "Person",
+                    "_label": "Henry Lee McFee - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/27533",
+            "type": "Person",
+            "_label": "Andrew Dasburg",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Andrew Dasburg"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "61688",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1887"
+                        }
+                    ],
+                    "begin_of_the_begin": "1887-01-01T00:00:00Z",
+                    "end_of_the_end": "1887-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1979"
+                        }
+                    ],
+                    "begin_of_the_begin": "1979-01-01T00:00:00Z",
+                    "end_of_the_end": "1979-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500019289",
+                    "type": "Person",
+                    "_label": "Andrew Dasburg - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q4756760",
+                    "type": "Person",
+                    "_label": "Andrew Dasburg - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/27532",
+            "type": "Person",
+            "_label": "James Chapin",
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "James Chapin"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "61687",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/28786",
+            "type": "Person",
+            "_label": "Henry E. Schnakenberg",
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Henry E. Schnakenberg"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "61451",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/1105",
+            "type": "Person",
+            "_label": "Merton Clivette",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Merton Clivette"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "1154",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1868"
+                        }
+                    ],
+                    "begin_of_the_begin": "1868-01-01T00:00:00Z",
+                    "end_of_the_end": "1868-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1931"
+                        }
+                    ],
+                    "begin_of_the_begin": "1931-01-01T00:00:00Z",
+                    "end_of_the_end": "1931-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500109357",
+                    "type": "Person",
+                    "_label": "Merton Clivette - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q19879105",
+                    "type": "Person",
+                    "_label": "Merton Clivette - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/909",
+            "type": "Person",
+            "_label": "Vincent Canadé",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Vincent Canadé"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "945",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1879"
+                        }
+                    ],
+                    "begin_of_the_begin": "1879-01-01T00:00:00Z",
+                    "end_of_the_end": "1879-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1961"
+                        }
+                    ],
+                    "begin_of_the_begin": "1961-01-01T00:00:00Z",
+                    "end_of_the_end": "1961-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500044198",
+                    "type": "Person",
+                    "_label": "Vincent Canadé - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q7931708",
+                    "type": "Person",
+                    "_label": "Vincent Canadé - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/1346",
+            "type": "Person",
+            "_label": "Stuart Davis",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Stuart Davis"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "1412",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1892"
+                        }
+                    ],
+                    "begin_of_the_begin": "1892-01-01T00:00:00Z",
+                    "end_of_the_end": "1892-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1964"
+                        }
+                    ],
+                    "begin_of_the_begin": "1964-01-01T00:00:00Z",
+                    "end_of_the_end": "1964-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500115507",
+                    "type": "Person",
+                    "_label": "Stuart Davis - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q704588",
+                    "type": "Person",
+                    "_label": "Stuart Davis - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/2095",
+            "type": "Person",
+            "_label": "William Glackens",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "William Glackens"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2184",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1870"
+                        }
+                    ],
+                    "begin_of_the_begin": "1870-01-01T00:00:00Z",
+                    "end_of_the_end": "1870-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1938"
+                        }
+                    ],
+                    "begin_of_the_begin": "1938-01-01T00:00:00Z",
+                    "end_of_the_end": "1938-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500018884",
+                    "type": "Person",
+                    "_label": "William Glackens - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q1339934",
+                    "type": "Person",
+                    "_label": "William Glackens - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/1921",
+            "type": "Person",
+            "_label": "Arnold Friedman",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Arnold Friedman"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2003",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1879"
+                        }
+                    ],
+                    "begin_of_the_begin": "1879-01-01T00:00:00Z",
+                    "end_of_the_end": "1879-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1946"
+                        }
+                    ],
+                    "begin_of_the_begin": "1946-01-01T00:00:00Z",
+                    "end_of_the_end": "1946-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500028092",
+                    "type": "Person",
+                    "_label": "Arnold Friedman - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q4795053",
+                    "type": "Person",
+                    "_label": "Arnold Friedman - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/1789",
+            "type": "Person",
+            "_label": "Ernest Fiene",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Ernest Fiene"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "1870",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1894"
+                        }
+                    ],
+                    "begin_of_the_begin": "1894-01-01T00:00:00Z",
+                    "end_of_the_end": "1894-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1965"
+                        }
+                    ],
+                    "begin_of_the_begin": "1965-01-01T00:00:00Z",
+                    "end_of_the_end": "1965-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500000832",
+                    "type": "Person",
+                    "_label": "Ernest Fiene - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q5393065",
+                    "type": "Person",
+                    "_label": "Ernest Fiene - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/2103",
+            "type": "Person",
+            "_label": "Anna Glenny",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Anna Glenny"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2192",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Female"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1888"
+                        }
+                    ],
+                    "begin_of_the_begin": "1888-01-01T00:00:00Z",
+                    "end_of_the_end": "1888-12-31T23:59:59Z"
+                }
+            }
+        },
+        {
+            "id": "https://www.moma.org/data/Person/934",
+            "type": "Person",
+            "_label": "Arthur B. Carles",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Arthur B. Carles"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "972",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1882"
+                        }
+                    ],
+                    "begin_of_the_begin": "1882-01-01T00:00:00Z",
+                    "end_of_the_end": "1882-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1952"
+                        }
+                    ],
+                    "begin_of_the_begin": "1952-01-01T00:00:00Z",
+                    "end_of_the_end": "1952-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500014441",
+                    "type": "Person",
+                    "_label": "Arthur B. Carles - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q4797967",
+                    "type": "Person",
+                    "_label": "Arthur B. Carles - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/842",
+            "type": "Person",
+            "_label": "Paul Burlin",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Paul Burlin"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "876",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1886"
+                        }
+                    ],
+                    "begin_of_the_begin": "1886-01-01T00:00:00Z",
+                    "end_of_the_end": "1886-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1969"
+                        }
+                    ],
+                    "begin_of_the_begin": "1969-01-01T00:00:00Z",
+                    "end_of_the_end": "1969-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500005636",
+                    "type": "Person",
+                    "_label": "Paul Burlin - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q7149608",
+                    "type": "Person",
+                    "_label": "Paul Burlin - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/887",
+            "type": "Person",
+            "_label": "Alexander Calder",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Alexander Calder"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "922",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1898"
+                        }
+                    ],
+                    "begin_of_the_begin": "1898-01-01T00:00:00Z",
+                    "end_of_the_end": "1898-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1976"
+                        }
+                    ],
+                    "begin_of_the_begin": "1976-01-01T00:00:00Z",
+                    "end_of_the_end": "1976-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500007824",
+                    "type": "Person",
+                    "_label": "Alexander Calder - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q151580",
+                    "type": "Person",
+                    "_label": "Alexander Calder - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/2420",
+            "type": "Person",
+            "_label": "Marsden Hartley",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Marsden Hartley"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2521",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1877"
+                        }
+                    ],
+                    "begin_of_the_begin": "1877-01-01T00:00:00Z",
+                    "end_of_the_end": "1877-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1943"
+                        }
+                    ],
+                    "begin_of_the_begin": "1943-01-01T00:00:00Z",
+                    "end_of_the_end": "1943-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500012910",
+                    "type": "Person",
+                    "_label": "Marsden Hartley - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q553259",
+                    "type": "Person",
+                    "_label": "Marsden Hartley - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/384",
+            "type": "Person",
+            "_label": "Gifford Beal",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Gifford Beal"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "407",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1879"
+                        }
+                    ],
+                    "begin_of_the_begin": "1879-01-01T00:00:00Z",
+                    "end_of_the_end": "1879-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1956"
+                        }
+                    ],
+                    "begin_of_the_begin": "1956-01-01T00:00:00Z",
+                    "end_of_the_end": "1956-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500019899",
+                    "type": "Person",
+                    "_label": "Gifford Beal - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q5559916",
+                    "type": "Person",
+                    "_label": "Gifford Beal - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/2430",
+            "type": "Person",
+            "_label": "Childe Hassam",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Childe Hassam"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "2532",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1859"
+                        }
+                    ],
+                    "begin_of_the_begin": "1859-01-01T00:00:00Z",
+                    "end_of_the_end": "1859-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1935"
+                        }
+                    ],
+                    "begin_of_the_begin": "1935-01-01T00:00:00Z",
+                    "end_of_the_end": "1935-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500018088",
+                    "type": "Person",
+                    "_label": "Childe Hassam - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q737635",
+                    "type": "Person",
+                    "_label": "Childe Hassam - VIAF"
+                }
+            ]
+        },
+        {
+            "id": "https://www.moma.org/data/Person/1529",
+            "type": "Person",
+            "_label": "Arthur Dove",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300107956",
+                    "type": "Type",
+                    "_label": "American"
+                }
+            ],
+            "identified_by": [
+                {
+                    "type": "Name",
+                    "content": "Arthur Dove"
+                },
+                {
+                    "type": "Identifier",
+                    "content": "1602",
+                    "attributed_by": [
+                        {
+                            "type": "AttributeAssignment",
+                            "carried_out_by": [
+                                {
+                                    "id": "https://www.moma.org/data/Group/inst2",
+                                    "type": "Group",
+                                    "_label": "The Metropolitan Museum of Art"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/aat/300435422",
+                            "type": "Type",
+                            "_label": "Biography Statement"
+                        }
+                    ],
+                    "content": "Male"
+                }
+            ],
+            "born": {
+                "type": "Birth",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1880"
+                        }
+                    ],
+                    "begin_of_the_begin": "1880-01-01T00:00:00Z",
+                    "end_of_the_end": "1880-12-31T23:59:59Z"
+                }
+            },
+            "died": {
+                "type": "Death",
+                "timespan": {
+                    "type": "TimeSpan",
+                    "identified_by": [
+                        {
+                            "type": "Name",
+                            "classified_as": [
+                                {
+                                    "id": "http://vocab.getty.edu/aat/300404669",
+                                    "type": "Type",
+                                    "_label": "Display Title"
+                                }
+                            ],
+                            "content": "1946"
+                        }
+                    ],
+                    "begin_of_the_begin": "1946-01-01T00:00:00Z",
+                    "end_of_the_end": "1946-12-31T23:59:59Z"
+                }
+            },
+            "equivalent": [
+                {
+                    "id": "http://www.wikidata.org/entity/500018046",
+                    "type": "Person",
+                    "_label": "Arthur Dove - Wikidata"
+                },
+                {
+                    "id": "http://viaf.org/viaf/Q709461",
+                    "type": "Person",
+                    "_label": "Arthur Dove - VIAF"
+                }
+            ]
+        }
+    ]
+}

@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 
+
+
 export const getStaticProps: GetStaticProps = async (_context) => {
   
   return {

@@ -16,5 +16,17 @@
     "moduleResolution": "node"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "paths": {
+    "@exhibitions/*": ["pages/exhibitions/*"],
+    "@exhibition/*": ["pages/exhibition/*"],
+    "@persons/*": ["pages/persons/*"],
+    "@person/*": ["pages/person/*"],
+    "@context/*": ["context/*"],
+    "@styles/*": ["styles/*"],
+    "@lib/*": ["lib/*"],
+    "@hooks/*": ["hooks/*"],
+    "@utils/*": ["utils/*"],
+   "@pages/*": ["pages/*"],
+  }
 }

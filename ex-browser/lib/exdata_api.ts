@@ -14,6 +14,6 @@ export async function GetExs(): Promise<ExData[]> {
     )
     const result =  await response.json()
   
-  const exList: ExData[] = ( result.events) as ExData[]
+  const exList: ExData[] = (result.events) as ExData[]
   return exList
 }

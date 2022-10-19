@@ -38,6 +38,7 @@ export const getStaticProps: GetStaticProps<ExDataProps, Params> = async (
     props: {
       exData,
     },
+    
   }
 }
 
@@ -62,7 +63,7 @@ const Ex: NextPage<ExDataProps> = ({ exData }: ExDataProps) => {
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
         crossOrigin="anonymous"
       ></link>
-<script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
+<script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="anonymous"></script>
     
     
     

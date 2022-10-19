@@ -22,10 +22,11 @@ import { ExData, ExDataListProps} from '../../types/exdata'
 import { GetExs } from '../../lib/exdata_api'
 
 
+
 export const getStaticProps: GetStaticProps = async (_context) => {
   // fetch list of exhibitions
   const exs: ExData[] = await GetExs()
-  return {
+  return {  
     props: {
       exDataList: exs,
     },
